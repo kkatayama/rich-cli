@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "rich-cli"
 homepage = "https://github.com/Textualize/rich-cli"
-version = "1.8.0"
+version = "1.8.1"
 description = "Command Line Interface to Rich"
 authors = ["Will McGugan <willmcgugan@gmail.com>"]
 license = "MIT"
@@ -22,10 +22,10 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
-rich = "^12.4.0"
+rich = "^13.4.2"
 click = "^8.0.0"
 requests = "^2.0.0"
-textual = "^0.1.18"
+textual = "^0.30.0"
 rich-rst = "^1.1.7"
 
 [tool.poetry.dev-dependencies]
